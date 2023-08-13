@@ -12,7 +12,9 @@ const Menu =()=>{
             <p><a href="#features">Case Studies</a></p>
              <p><a href="#blog">Library</a></p>
  </> 
+ 
 }
+
 const Navbar = () => {
 
   const [toggleMenu,setToggleMenu]=useState(false);
@@ -23,7 +25,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="project_2_navbar-links_container">
-            <p><a href="#home">Home</a></p>
+          <p><a href="#home">Home</a></p>
             <p><a href="#whatProject_2">What is GPT?</a></p>
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#features">Case Studies</a></p>
