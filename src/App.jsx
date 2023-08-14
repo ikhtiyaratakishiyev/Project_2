@@ -1,6 +1,6 @@
 import React from 'react'
-import {Blog,Feature,Footer,Header,Possibility,WhatProject_2} from './containers'; 
-import {Cta,Article,Brand,Navbar,} from './componenets';
+import {Blog,Footer,Header,Possibility,WhatProject_2} from './containers'; 
+import {Cta,Article,Brand,Navbar,Feature} from './componenets';
 
 import './App.scss'
 import './index.scss'
