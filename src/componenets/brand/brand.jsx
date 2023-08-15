@@ -4,14 +4,23 @@ import './brand.scss';
 
 const Brand = () => {
   return (
-    <div className='project-2__brand section'>
-        <div className='project-2__brand-img'>
-          <img src={google} alt="google" />
-          <img src={slack} alt="slack" />
-          <img src={atlassian} alt="atlassian" />
-          <img src={dropbox} alt="dropbox" />
-          <img src={shopify} alt="shopify" />
-        </div>
+    <div className='project-2__brand section__padding'>
+    <div>
+    <img src={google} alt="google" />
+    </div>
+    <div>
+    <img src={slack} alt="slack" />
+    </div>
+    <div>
+    <img src={atlassian} alt="atlassian" />
+    </div>
+    <div>
+    <img src={dropbox} alt="dropbox" />
+    </div>
+    <div>
+    <img src={shopify} alt="shopify" />
+    </div>
+   
     </div>
   )
 }
