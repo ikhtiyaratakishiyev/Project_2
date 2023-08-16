@@ -4,17 +4,6 @@ import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.png';
 import './navbar.scss';
 
-const Menu =()=>{
- <>
-             <p><a href="#home">Home</a></p>
-            <p><a href="#whatProject_2">What is GPT?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-             <p><a href="#blog">Library</a></p>
- </> 
- 
-}
-
 const Navbar = () => {
 
   const [toggleMenu,setToggleMenu]=useState(false);
@@ -26,7 +15,7 @@ const Navbar = () => {
           </div>
           <div className="project_2_navbar-links_container">
           <p><a href="#home">Home</a></p>
-            <p><a href="#whatProject_2">What is GPT?</a></p>
+          <p><a href="#wgpt3">What is GPT?</a></p>
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#features">Case Studies</a></p>
              <p><a href="#blog">Library</a></p>
@@ -48,7 +37,7 @@ const Navbar = () => {
               <div className='project_2__navbar-menu_container scale-up-center'>
                 <div className='project_2__navbar-menu_container-links'>
                 <p><a href="#home">Home</a></p>
-                <p><a href="#whatProject_2">What is GPT?</a></p>
+                <p><a href="#wgpt3">What is GPT?</a></p>
                 <p><a href="#possibility">Open AI</a></p>
                 <p><a href="#features">Case Studies</a></p>
                 <p><a href="#blog">Library</a></p>
