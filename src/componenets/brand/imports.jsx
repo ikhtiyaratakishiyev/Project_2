@@ -10,5 +10,5 @@ export{
   slack,
   atlassian,
   dropbox,
-  shopify  
+  shopify 
 }
